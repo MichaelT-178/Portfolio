@@ -1,0 +1,29 @@
+{
+    "projectData": [
+        {
+            "title": "Corey Heuvel Search",
+            "text": "This is a music search tool I made for corey Heuvel",
+            "image": "coreyheuvelsearch.jpg"
+        },
+        {
+            "title": "Livestream Directory",
+            "text": "This is the OG search tool",
+            "image": "livestreamdirectory.jpg"
+        },
+        {
+            "title": "Cars Crumbs",
+            "text": "Website I made for my little sisters bakery",
+            "image": "carscrumbs.jpg"
+        },
+        {
+            "title": "BookQL",
+            "text": "Graphql Api to query book data",
+            "image": "bookql.jpg"
+        },
+        {
+            "title": "Swift Colors",
+            "text": "Website used to generate Swift color code",
+            "image": "swiftcolors.jpg"
+        }
+    ]
+}

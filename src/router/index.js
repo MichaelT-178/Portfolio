@@ -1,7 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from '../views/Home.vue';
-import SecondPage from '../views/SecondPage.vue';
+import ExperiencePage from '../views/Experience.vue';
+import ProjectPage from '../views/Projects.vue';
+import SkillPage from '../views/skills.vue';
+import ContactPage from '../views/Contact.vue';
 
 const routes = [
 	{
@@ -9,9 +12,21 @@ const routes = [
 		component: Home
 	},
 	{
-		path: '/second-page',
-		component: SecondPage
-	}
+		path: '/experience',
+		component: ExperiencePage
+	},
+	{
+		path: '/projects',
+		component: ProjectPage
+	},
+	{
+		path: '/skills',
+		component: SkillPage
+	},
+	{
+		path: '/contact',
+		component: ContactPage
+	},
 ]
 
 const router = createRouter({
